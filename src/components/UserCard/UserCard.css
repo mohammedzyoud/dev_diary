@@ -1,0 +1,38 @@
+.user-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.email {
+  color: #555;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
